@@ -1,4 +1,4 @@
-# 🎬 IMDB Movie Reviews - Sentiment Analysis Benchmarking
+# IMDB Movie Reviews - Sentiment Analysis Benchmarking
 
 Backend NLP benchmarking framework analyzing syntactic and semantic density profiles across vast unstructured textual datasets.
 
@@ -13,7 +13,7 @@ Backend NLP benchmarking framework analyzing syntactic and semantic density prof
 
 ---
 
-## 📊 Performance Matrix & Benchmarking
+## Performance Matrix & Benchmarking
 
 This repository evaluates traditional statistical approaches against modern deep transfer learning paradigms to optimize text sequencing profiles:
 
@@ -25,7 +25,7 @@ This repository evaluates traditional statistical approaches against modern deep
 
 ---
 
-## 🚀 Key Architectural Pipeline
+## Key Architectural Pipeline
 
 1. **Text Normalization Engine:** Dynamic text cleaning pipelines filtering HTML tags, trailing regex tokens, punctuation matrices, and stopword maps.
 2. **Multi-Model Embeddings:** Implements multi-tier comparison architectures transitioning from sparse frequency models to dense transformer matrices.
@@ -34,7 +34,7 @@ This repository evaluates traditional statistical approaches against modern deep
 
 ---
 
-## 📂 Detailed Repository Directory Structure
+## Detailed Repository Directory Structure
 
 An breakdown of all included architectural assets across this pipeline deployment:
 
@@ -59,7 +59,7 @@ imdb_sentiment_analysis/
 └── README.md                     # Primary client documentation hub
 ```
 
-## 🛠️ Reproduction & Local Setup
+## Reproduction & Local Setup
 
 ### 1. Environment Cloning
 
@@ -88,9 +88,9 @@ Open the development environment server and step through the functional programm
 jupyter notebook notebooks/imdb_sentiment_analysis.ipynb
 ```
 
-## 📡 Pipeline Architecture Details
+##  Pipeline Architecture Details
 
-### 🔹 Preprocessing Tokenizer Layer
+### Preprocessing Tokenizer Layer
 
 ```python
 # Cleans and standardizes raw unstructured strings
@@ -101,7 +101,7 @@ def advanced_text_cleaning(raw_text):
     return cleaned_tokens
 ```
 
-### 🔹 Sample Production Inference Hook
+### Sample Production Inference Hook
 
 ```python
 # Evaluates custom client-facing text inputs through the optimal trained backend
@@ -112,10 +112,10 @@ def live_predict_sentiment(custom_review_string: str):
     return {"sentiment": sentiment, "confidence_score": float(prediction_probability)}
 ```
 
-## 🤝 Contribution & Optimization
+## Contribution & Optimization
 
 Feel free to open structural issues or fork the architecture to append higher-order transformer variants like RoBERTa or DeBERTa architectures.
 
-## 📄 License
+## License
 
 This benchmark environment is open-sourced under the MIT License.
